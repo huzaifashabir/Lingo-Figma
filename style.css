@@ -166,13 +166,16 @@ header {
   display: grid;
   grid-template-columns: repeat(4, 23%);
   justify-content: space-between;
-  padding: 28px 20px;
-  margin-block: 60px;
-  border: 1px solid var(--Colors-Border-grey, rgba(232, 232, 234, 1));
+  .card {
+    padding: 28px 20px;
+    margin-block: 60px;
+    border: 1px solid var(--Colors-Border-grey, rgba(232, 232, 234, 1));
+  }
 }
 .card h1 {
   color: var(--Colors-Text-dark, rgba(30, 30, 47, 1));
   font-size: 24px;
+
   margin-block: 24px;
 }
 .card p {
